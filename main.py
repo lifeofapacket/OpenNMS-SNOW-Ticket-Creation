@@ -6,7 +6,7 @@ s = sched.scheduler(time.time, time.sleep)
  
  
 def opennms_snow(sc): 
-    URL = "http://<IP_OF_THE_OPENNMS_SERVER:8980/opennms/rest/events?orderBy=id&order=desc" 
+    URL = "http://<IP_OF_THE_OPENNMS_SERVER>:8980/opennms/rest/events?orderBy=id&order=desc" 
     headers = {"Accept": "application/json"} 
     resp = requests.get(URL, headers=headers, auth=HTTPBasicAuth('<USERNAME>', '<PASSWORD>')) 
     if resp.status_code != 200: 
