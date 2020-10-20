@@ -1,6 +1,9 @@
 # OpenNMS ServiceNOW Ticket Creation with REST API
 The script is created to document the proof of concept of using the REST API to create tickets from events of the OpenNMS.
 
+<img src="/images/2020-10-17 07_03_44-List _ Events _ OpenNMS Web Console.png">
+
+
 In our test environment, we have generated 4 different events to see if we can generate tickets through ServiceNOW REST API.
 
 In our python script, we communicated with OpenNMS with their REST API as well for every 10 seconds. The check time can be changed as needed. We can also see the current Alarm lists but in this test, we have only used current events for minimal settings.  
