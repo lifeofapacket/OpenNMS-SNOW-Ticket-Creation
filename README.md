@@ -3,6 +3,8 @@ The script is created to document the proof of concept of using the REST API to 
 
 In our test environment, we have generated 4 different events to see if we can generate tickets through ServiceNOW REST API.
 
+![](/images/tickets.png)
+
 In our python script, we communicated with OpenNMS with their REST API as well for every 10 seconds. The check time can be changed as needed. We can also see the current Alarm lists but in this test, we have only used current events for minimal settings.  
 
 In first part of our script, we comminate with OpenNMS through REST link with http basic authentication. If our commination succeeds, we will continue with else statement. 
