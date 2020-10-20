@@ -21,4 +21,4 @@ The ticket generation is fully customizable. For the newer version of script, we
 
 [![tickets.png](https://i.postimg.cc/VvhGSW67/tickets.png)](https://postimg.cc/tnhtwPFP)
 
-For our timing loop we have used sched and time modules. Logging we will be added to script where we can see the timestamps for each ticket checks/generations. As well as positive traps to be clearing a ticket on ServiceNOW. 
+For our timing loop we have used sched and time modules. Logging we will be added to script where we can see the timestamps for each ticket checks/generations. As well as positive traps to delete the relative tickets on ServiceNOW. 
