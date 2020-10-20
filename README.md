@@ -1,4 +1,4 @@
-# OpenNMS SNOW Ticket Creation with REST API
+# OpenNMS ServiceNOW Ticket Creation with REST API
 The script is created to document the proof of concept of using the REST API to create tickets from events of the OpenNMS.
 
 In our test environment, we have generated 4 different events to see if we can generate tickets through ServiceNOW REST API.
